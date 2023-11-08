@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1598959237790-1590cc2776a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyZWVuJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D);
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+}
+.form_box{
+    
+    height: 480px;
+    width: 380px;
+    background: white;
+    padding: 5px;
+    margin: 6% auto;
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.button_box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+}
+.toggle_btn{
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    transition: 0.1s;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+.social_icon{
+    margin: 30px;
+    text-align: center;
+}
+.social_icon img{
+    width: 30px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input_group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input_field{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit_btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient( #ff105f, #ffad06);
+    outline: none;
+    border-radius: 30px;
+    border: none;
+}
+.check_box{
+    margin: 30px 10px 30px 0;
+   
+}
+span{
+    font-size: 18px;
+    bottom: 60px;
+    position: absolute;
+    color: black;
+
+}
+#login{
+    left: 50px;
+
+}
+#Register{
+    left: 450px;
+    
+}
